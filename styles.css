@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --blue: #389ee1;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(56,158,225, 0.1);
+  ;
+  font-family: 'Roboto', sans-serif;
+}
+main {
+  width: 80%;
+  /* height: 80%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+hr {
+  width: 20%;
+  height: 4px;
+  background-color: var(--blue);
+  border: none;
+  margin-top: 1rem;
+}
+.card {
+  background-color: white;
+  width: 100%;
+  /* height: 70%; */
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image-wrapper {
+  margin-top: 1.5rem;
+  width: 25%;
+  aspect-ratio: 1;
+  position: relative;
+}
+#quote-container {
+  width: 24%;
+  aspect-ratio: 1;
+  background-color: var(--blue);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 5px;
+}
+#quote {
+  width: 60%;
+  filter: invert(100%);
+}
+#image-background {
+  width: 100%;
+  aspect-ratio: 1;
+  background-color: var(--blue);
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  left: 10px;
+}
+#profile-foto {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+}
+#name {
+  margin-top: 1rem;
+  font-size: 16px;
+}
+ #job {
+  margin-top: 0.3rem;
+  color: var(--blue);
+ }
+ #description {
+  margin-top: 0.5rem;
+  width: 85%;
+  font-size: 15px;
+  text-align: justify;
+  opacity: 0.5;
+  line-height: 1.6;
+ }
+.btn {
+  background-color: white;
+  color: var(--blue);
+  border: none;
+  font-size: 30px;
+  font-weight: 900;
+  margin: 1rem 10px;
+  cursor: pointer;
+}
+#surprise {
+  border: 2px solid var(--blue);
+  color: var(--blue);
+  background-color: rgba(56,158,225, 0.1);
+  padding: 3px 10px;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
